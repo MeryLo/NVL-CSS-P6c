@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+.principal {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  padding: 0 50px;
+  align-items: baseline;
+}
+
+.receta {
+  width: 70%;
+  margin-right: 15px;
+  color: #F5A943;
+}
+
+.receta p {
+  color: #F5A943;
+}
+
+[class="receta"]>h1 {
+  padding: 0 10px;
+  color: #F5A943;
+}
+
+ul {
+  list-style: none;
+  font-size: 18px;
+}
+
+form {
+  height: 575px;
+  width: 30%;
+}
+
+form label {
+  font-size: 1.1em;
+}
+
+form input {
+  width: 90%;
+  margin: 5px 0;
+}
+
+form>h2 {
+  color: #F5A943;
+}
+
+[name="comentarios"] {
+  width: 90%;
+  height: 216px;
+  ;
+}
+
+.footer_container {
+  background: #EA8B0C;
+  padding: 19px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_container h2,
+small,
+p {
+  margin: 0;
+  padding: 7px;
+  color: #995800;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.footer_container h2,
+a {
+  font-size: 1.2em;
+  color: #995800;
+}
